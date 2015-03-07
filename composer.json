@@ -1,0 +1,15 @@
+{
+    "name": "marcoboom/google-maps-geocode-api",
+    "description": "Simple PHP wrapper for the Google Maps Geocode API",
+    "require": {
+        "guzzlehttp/guzzle": "~5.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Boom",
+            "email": "marco@quest-media.nl"
+        }
+    ],
+    "minimum-stability": "dev"
+}
