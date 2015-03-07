@@ -9,11 +9,14 @@ First, you'll need to require the package with Composer:
 $ composer require marcoboom/google-maps-geocode-api
 ```
 
+This package requires PHP 5.4 and <a href="https://github.com/guzzle/guzzle">Guzzle
+
+
 ## Usage
 
 ```php
 	
-	$geocode = new GoogleMapsGeocodeApi\Geocode("Kalverstraat 100 Amsterdam");
+	$geo = new GoogleMapsGeocodeApi\Geocode("Kalverstraat 100 Amsterdam");
 	
 	echo "Street: ".$geo->street().PHP_EOL;
 	echo "Housenumber: ".$geo->housenumber().PHP_EOL;
