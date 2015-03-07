@@ -534,7 +534,7 @@ class Geocode {
 	protected function _formatted() 
 	{
 		
-		return $this->data['formatted_address'];
+		return $this->data['results'][0]['formatted_address'];
 		
 	}
 
