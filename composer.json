@@ -11,5 +11,13 @@
             "email": "marco@quest-media.nl"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+     "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+		"psr-4": {
+			"GoogleMapsGeocodeApi\\": "src/GoogleMapsGeocodeApi"
+		}
+    }
 }
