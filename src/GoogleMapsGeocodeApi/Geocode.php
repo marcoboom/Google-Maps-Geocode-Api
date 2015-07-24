@@ -213,7 +213,7 @@ class Geocode {
 			
 		}
 		
-		$this->set_data($response->json());
+		$this->set_data(json_decode($response->getBody(), true));
 		
 		$this->validate_data();
 		
