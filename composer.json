@@ -2,7 +2,7 @@
     "name": "marcoboom/google-maps-geocode-api",
     "description": "Simple PHP wrapper for the Google Maps Geocode API",
     "require": {
-        "guzzlehttp/guzzle": "^6.0",
+        "guzzlehttp/guzzle": "^6.0"
     },
     "license": "MIT",
     "authors": [
